@@ -6,3 +6,9 @@
     --botao-inativo: rgba(58, 55, 94, 0.5);
     --texto-fundo: rgba(58, 55, 94, 0.3);
 }
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap')
+</style>
+body{
+    
+}
