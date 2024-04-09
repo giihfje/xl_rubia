@@ -41,6 +41,6 @@ function calculaTempo(tempoObjetivo){
     if (tempoFinal > 0){
     return dias + "dias" + horas + "horas" + minutos + "minutos" + segundos + "seguntos";
     }else {
-     return "Prazo Finalizado";
+        return "Prazo Finalizado";
     }
 }
