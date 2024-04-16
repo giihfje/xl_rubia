@@ -1,19 +1,19 @@
-:root {
-    --cor-de-fundo: #1e1e1e;
-    --verde: #6fff57;
+:root{
+    --cor-de-fundo:#060606;
+    --verde: #6FFF57;
     --branco: #FFFFFF;
-    --botao-ativo: #3a375e;
-    --botao-inativo: rgba(58, 55, 94, 0.5);
-    --texto-fundo: rgba(58, 55, 94, 0.3);
+    --botao-ativo: #3A375A;
+    --botao-inativo: rgba(58,55,94,0.5);
+    --texto-fundo: rgba(58,55,94,0.3);
 }
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
 body{
-    background-color: var(--cor-de-fundo);
-    color: var(--branco);
-    font-family: 'Chakra Petch',sans-serif;
+background-color: var(--cor-de-fundo); 
+color: var(--branco);
+font-family: 'Chakra Petch', sans-serif;
 }
 .conteudo-principal{
-    display: flex;
+    display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -21,25 +21,25 @@ body{
     width: 100%;
     margin: 0 auto;
 }
-.titulo-principal{
+.tiulo-principal{
     text-align: left;
-    width: 100%; 
-    font-size: 32px;  
+    width: 100%;
+    font-size: 32px;
 }
-.titulo-principal span{
+.tiulo-principal span{
     color: var(--verde);
 }
 .botao{
-    font-family: 'Chskra Petch',sans-serif;
+    font-family: 'Chakra Petch',sans-serif;
     background-color: var(--botao-inativo);
     color: var(--branco);
     display: flex;
     justify-content: center;
     padding: 1em;
     font-size: 18px;
-    align-items: center;
+    align-items:center;
     width: 100%;
-    border-bottom: 4px solid var(--botao-ativo);
+    border-bottom: 4px solid  var(--botao-ativo);
     border-left: 2px solid var(--botao-ativo);
     border-right: 2px solid var(--botao-ativo);
     border-top: none;
@@ -50,15 +50,15 @@ body{
 @media screen and (min-width: 768px) {
     .botoes{
         display: flex;
-    } 
-}
-.botao:first-child{
-    border-radius: 40px 0 0 0;
+    }
 }
 .botao:last-child{
-    border-radius: 0 40 0 0;
+    border-radius: 0 40px 0 0;
 }
-.abas.textos{
+.botao:last-child{
+    border-radius: 0 40px 0 0;
+}
+.aba-textos{
     background-color: var(--cor-de-fundo);
     padding: 40px;
     border-radius: 0 0 40px 40px;
@@ -85,4 +85,21 @@ body{
 .contador{
     font-size: 20px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contador-digito{
+    padding: 0 16px;
+    text-align: center;
+    min-width: 100px;
+}
+.contador-digito-numero{
+    font-size: 80px;
+    margin: 0;
+}
+.contador-digito-texto{
+    color: var(--verde);
+    font-size: 20px;
+    margin: 0;
 }
