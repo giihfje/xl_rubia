@@ -55,8 +55,8 @@ font-family: 'Chakra Petch', sans-serif;
 .botao:last-child{
     border-radius: 0 40px 0 0;
 }
-.botao:last-child{
-    border-radius: 0 40px 0 0;
+.botao:first-child{
+    border-radius: 40px 0 0 0;
 }
 .aba-textos{
     background-color: var(--cor-de-fundo);
